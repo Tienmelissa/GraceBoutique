@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grâce-Boutique - Panier</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body class="cart-page">
+    <!-- HEADER -->
+    <header>
+      <div class="header-container">
+        <h1>Votre Panier</h1>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+      </div>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="hommes.html">Accessoires Homme</a></li>
+          <li><a href="femmes.html">Accessoires Femme</a></li>
+          <li><a href="bibles.html">Bibles</a></li>
+          <li>
+            <button id="theme-toggle">
+              <ion-icon name="moon-outline"></ion-icon>
+            </button>
+          </li>
+          <li>
+            <a href="commande.html" class="active"
+              >Panier (<span id="cart-count">0</span>)</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- BLOC CONTACT -->
+    <div id="contact-buttons">
+      <a href="mailto:melissatiendrebeogo647@gmail.com" id="email-contact"
+        ><ion-icon name="mail-outline"></ion-icon> Contact Email</a
+      >
+      <a href="#" id="whatsapp-contact"
+        ><ion-icon name="logo-whatsapp"></ion-icon> WhatsApp</a
+      >
+    </div>
+
+    <!-- WRAPPER PRINCIPAL -->
+    <div class="page-wrapper">
+      <!-- CONTENU PRINCIPAL -->
+      <main class="cart-container">
+        <h2>Récapitulatif de votre commande</h2>
+
+        <div id="cart-items" class="cart-items-container"></div>
+
+        <div id="cart-total" class="cart-total">0 FCFA</div>
+
+        <div class="cart-actions">
+          <button
+            onclick="generateOrderMessage()"
+            class="btn-commande"
+            id="order-btn"
+          >
+            <ion-icon name="logo-whatsapp"></ion-icon>
+            Commander via WhatsApp
+          </button>
+        </div>
+
+        <div class="cart-info">
+          <p>
+            En cliquant sur "Commander via WhatsApp", vous serez redirigé vers
+            WhatsApp avec le détail de votre commande pré-rempli.
+          </p>
+        </div>
+      </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="footer-bottom">
+        &copy; Grâce-Boutique 2025 — Tout droit réservé.
+      </p>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

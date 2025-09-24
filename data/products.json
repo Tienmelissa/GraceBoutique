@@ -1,0 +1,242 @@
+{
+  "hommes": [
+    {
+      "id": "homme1",
+      "name": "Collier Messie-Or",
+      "image": "assets/homme1.jpg",
+      "description": "Collier élégant avec pendentif Messie en finition dorée",
+      "price": 2000,
+      "available": true,
+      "category": "hommes"
+    },
+    {
+      "id": "homme2", 
+      "name": "Collier Messie-Argenté",
+      "image": "assets/homme2.jpg",
+      "description": "Collier élégant avec pendentif Messie en finition argentée",
+      "price": 2000,
+      "available": true,
+      "category": "hommes"
+    },
+    {
+      "id": "homme3",
+      "name": "Collier Zachée-Or",
+      "image": "assets/homme5.jpg",
+      "description": "Collier avec pendentif Zachée en finition dorée",
+      "price": 2000,
+      "available": true,
+      "category": "hommes"
+    },
+    {
+      "id": "homme4",
+      "name": "Collier Zachée-Argenté", 
+      "image": "assets/homme6.jpg",
+      "description": "Collier avec pendentif Zachée en finition argentée",
+      "price": 2000,
+      "available": true,
+      "category": "hommes"
+    },
+    {
+      "id": "homme5",
+      "name": "Collier double-Or",
+      "image": "assets/homme7.jpg", 
+      "description": "Collier double chaîne en finition dorée",
+      "price": 3000,
+      "available": true,
+      "category": "hommes"
+    },
+    {
+      "id": "homme6",
+      "name": "Collier double-Argenté",
+      "image": "assets/homme8.jpg",
+      "description": "Collier double chaîne en finition argentée", 
+      "price": 3000,
+      "available": true,
+      "category": "hommes"
+    },
+    {
+      "id": "homme7",
+      "name": "Bracelet double",
+      "image": "assets/homme9.jpg",
+      "description": "Bracelet double chaîne élégant",
+      "price": 2500,
+      "available": true,
+      "category": "hommes"
+    }
+  ],
+  "femmes": [
+    {
+      "id": "femme1",
+      "name": "Bague Faith",
+      "image": "assets/femme1.jpg",
+      "description": "Bague élégante avec inscription Faith",
+      "price": 1000,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme2",
+      "name": "Bague God's Love-Or",
+      "image": "assets/femme2.jpg",
+      "description": "Bague God's Love en finition dorée",
+      "price": 1000,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme3",
+      "name": "Collier Croix-Or",
+      "image": "assets/femme3.jpg",
+      "description": "Collier avec pendentif croix en finition dorée",
+      "price": 2000,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme4",
+      "name": "Collier Croix-Argenté",
+      "image": "assets/femme4.jpg",
+      "description": "Collier avec pendentif croix en finition argentée",
+      "price": 2000,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme5",
+      "name": "Boucles d'oreilles Faith",
+      "image": "assets/femme5.jpg",
+      "description": "Boucles d'oreilles élégantes avec inscription Faith",
+      "price": 1500,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme6",
+      "name": "Bracelet Amour-Or",
+      "image": "assets/femme6.jpg",
+      "description": "Bracelet avec charm amour en finition dorée",
+      "price": 1800,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme7",
+      "name": "Bracelet Amour-Argenté",
+      "image": "assets/femme7.jpg",
+      "description": "Bracelet avec charm amour en finition argentée",
+      "price": 1800,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme8",
+      "name": "Collier Coeur-Or",
+      "image": "assets/femme8.jpg",
+      "description": "Collier avec pendentif coeur en finition dorée",
+      "price": 2200,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme9",
+      "name": "Collier Coeur-Argenté",
+      "image": "assets/femme9.jpg",
+      "description": "Collier avec pendentif coeur en finition argentée",
+      "price": 2200,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme10",
+      "name": "Collier Amour infini-Argenté",
+      "image": "assets/femme10.jpg",
+      "description": "Collier avec symbole infini en finition argentée",
+      "price": 2000,
+      "available": false,
+      "category": "femmes"
+    },
+    {
+      "id": "femme11",
+      "name": "Bague Promesse-Or",
+      "image": "assets/femme11.jpg",
+      "description": "Bague de promesse en finition dorée",
+      "price": 1200,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme13",
+      "name": "Bracelet Perles-Or",
+      "image": "assets/femme13.jpg",
+      "description": "Bracelet avec perles et finition dorée",
+      "price": 1600,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme14",
+      "name": "Journal Epouse du Roi",
+      "image": "assets/femme14.jpg",
+      "description": "Journal quotidien pour femmes chrétiennes",
+      "price": 6000,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme15",
+      "name": "Bracelet Perles-Argenté",
+      "image": "assets/femme15.jpg",
+      "description": "Bracelet avec perles et finition argentée",
+      "price": 1600,
+      "available": true,
+      "category": "femmes"
+    }
+  ],
+  "bibles": [
+    {
+      "id": "bible1",
+      "name": "Sainte Bible Classique",
+      "image": "assets/bible1.jpg",
+      "description": "Une Bible complète en français, couverture rigide, idéale pour la lecture quotidienne et les études personnelles.",
+      "price": 1500,
+      "available": true,
+      "category": "bibles"
+    },
+    {
+      "id": "bible2",
+      "name": "Bible Femme à son Écoute",
+      "image": "assets/bible2.jpg",
+      "description": "Version Louis Segond 1910, paroles de Jésus en turquoise. Guide personnel unique de méditation quotidienne, portraits de femmes bibliques, et plus de 400 fenêtres journalières pour appliquer les vérités de la Bible.",
+      "price": 30000,
+      "available": true,
+      "category": "bibles"
+    },
+    {
+      "id": "bible3",
+      "name": "Bible de Poche Femme",
+      "image": "assets/bible3.jpg",
+      "description": "Bible pratique et compacte, version Louis Segond 1910, avec paroles de Jésus en turquoise, méditations quotidiennes et introductions aux livres bibliques.",
+      "price": 40000,
+      "available": true,
+      "category": "bibles"
+    },
+    {
+      "id": "bible4",
+      "name": "Carnet Chrétien - Épouse du Roi",
+      "image": "assets/bible4.jpg",
+      "description": "Journal quotidien pour femmes, sections pour louange, prière, méditation et objectifs annuels. Inclus des conseils pour fiancées, songes, et planification spirituelle.",
+      "price": 6000,
+      "available": true,
+      "category": "bibles"
+    },
+    {
+      "id": "bible5",
+      "name": "Bible Pour le Couple - Version Semeur",
+      "image": "assets/bible5.jpg",
+      "description": "Édition spéciale pour mari et femme, avec méditations quotidiennes, études de week-end, conseils pratiques pour le mariage et outils d'étude biblique.",
+      "price": 25000,
+      "available": true,
+      "category": "bibles"
+    }
+  ]
+}

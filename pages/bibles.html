@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grâce-Boutique - Bibles et Carnets</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="header-container">
+        <h1>Bibles et Carnets</h1>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+      </div>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="hommes.html">Accessoires Homme</a></li>
+          <li><a href="femmes.html">Accessoires Femme</a></li>
+          <li><a href="bibles.html" class="active">Bibles</a></li>
+          <li>
+            <button id="theme-toggle">
+              <ion-icon name="moon-outline"></ion-icon>
+            </button>
+          </li>
+          <li>
+            <button id="cart-btn">
+              Panier (<span id="cart-count">0</span>)
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- BLOC CONTACT -->
+    <div id="contact-buttons">
+      <a href="mailto:melissatiendrebeogo647@gmail.com" id="email-contact"
+        ><ion-icon name="mail-outline"></ion-icon> Contact Email</a
+      >
+      <a href="#" id="whatsapp-contact"
+        ><ion-icon name="logo-whatsapp"></ion-icon> WhatsApp</a
+      >
+    </div>
+
+    <!-- SECTION PRODUITS -->
+    <main>
+      <h2>Nos Bibles et Carnets</h2>
+      <div class="products" id="products-container">
+        <!-- Les produits seront chargés dynamiquement -->
+      </div>
+    </main>
+
+    <script>
+      // Charger et afficher les bibles
+      async function loadBibleProducts() {
+        try {
+          const response = await fetch("../data/products.json");
+          const data = await response.json();
+          const container = document.getElementById("products-container");
+
+          data.bibles.forEach((product, index) => {
+            const productDiv = document.createElement("div");
+            productDiv.className = "product";
+            productDiv.innerHTML = `
+            <img src="../${product.image}" alt="${product.name}">
+            <div class="content">
+              <div class="product-info">
+                <h3>${product.name}</h3>
+                <p class="description">${product.description}</p>
+              </div>
+              <div class="product-actions">
+                <p class="price">${product.price.toLocaleString()} FCFA</p>
+                ${
+                  product.available
+                    ? `
+                  <div class="quantity-section">
+                    <label for="qty${index}">Quantité :</label>
+                    <input type="number" id="qty${index}" min="1" value="1">
+                  </div>
+                  <button class="add-to-cart" data-id="${product.id}" data-name="${product.name}" data-price="${product.price}" data-image="${product.image}" data-qty="qty${index}">
+                    Ajouter au panier
+                  </button>
+                `
+                    : `
+                  <div class="quantity-section">
+                    <label for="qty${index}">Quantité :</label>
+                    <input type="number" id="qty${index}" min="1" value="1">
+                  </div>
+                  <button class="reserve-btn" data-id="${product.id}" data-name="${product.name}" data-price="${product.price}" data-image="${product.image}" data-qty="qty${index}" style="background-color: #e67e22;">
+                    <span class="btn-icon">📋</span> Réserver
+                  </button>
+                `
+                }
+              </div>
+            </div>
+          `;
+            container.appendChild(productDiv);
+          });
+
+          // Les événements seront liés automatiquement par main.js
+        } catch (error) {
+          console.error("Erreur lors du chargement des produits:", error);
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", loadBibleProducts);
+    </script>
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="footer-bottom">
+        &copy; Grâce-Boutique 2025 — Tout droit réservé.
+      </p>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

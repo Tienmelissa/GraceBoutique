@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grâce-Boutique - Accueil</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="header-container">
+        <h1>Grâce-Boutique</h1>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+      </div>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="pages/hommes.html">Accessoires Homme</a></li>
+          <li><a href="pages/femmes.html">Accessoires Femme</a></li>
+          <li><a href="pages/bibles.html">Bibles</a></li>
+          <li><button id="theme-toggle"><ion-icon name="moon-outline"></ion-icon></button></li>
+          <li>
+            <button id="cart-btn">
+              Panier (<span id="cart-count">0</span>)
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- BLOC CONTACT -->
+    <div id="contact-buttons">
+      <a href="mailto:melissatiendrebeogo647@gmail.com" id="email-contact"
+        ><ion-icon name="mail-outline"></ion-icon> Contact Email</a
+      >
+      <a href="#" id="whatsapp-contact"><ion-icon name="logo-whatsapp"></ion-icon> WhatsApp</a>
+    </div>
+
+    <!-- SECTION VERSET -->
+    <section class="verse">
+      <h2>
+        « Car Dieu a tant aimé le monde qu’il a donné son Fils unique, afin que
+        quiconque croit en lui ne périsse point, mais qu’il ait la vie
+        éternelle. »
+      </h2>
+      <p>Jean 3:16</p>
+    </section>
+
+    <!-- SECTION PRESENTATION -->
+    <section class="about">
+      <h2>Bienvenue à Grâce-Boutique</h2>
+      <p>
+        Notre mission est de partager la foi chrétienne à travers des articles
+        élégants et inspirés : bijoux, vêtements, bibles et plus encore.
+      </p>
+    </section>
+
+    <!-- SECTION AVIS CLIENTS -->
+    <section class="customer-reviews">
+      <h2>Ce que disent nos clients</h2>
+      <div class="reviews-grid" id="reviews-container">
+        <!-- Les avis seront chargés dynamiquement depuis reviews.json -->
+      </div>
+    </section>
+
+    <!-- BOUTON PASSER COMMANDE -->
+    <div class="commande-btn-container">
+      <a href="pages/commande.html" class="btn-commande">Découvrir nos produits</a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="footer-bottom">
+        &copy; Grâce-Boutique 2025 — Tout droit réservé.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+
+  </body>
+</html>

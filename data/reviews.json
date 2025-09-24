@@ -1,0 +1,46 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Marie K.",
+      "photo": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face",
+      "rating": 5,
+      "text": "Magnifique collier reçu rapidement ! La finition dorée est parfaite et la qualité au rendez-vous. Je recommande vivement !"
+    },
+    {
+      "id": 2,
+      "name": "David M.",
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face",
+      "rating": 5,
+      "text": "Service client exceptionnel ! Ma Bible est arrivée en parfait état. Merci pour ce beau travail et cette rapidité."
+    },
+    {
+      "id": 3,
+      "name": "Sarah L.",
+      "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face",
+      "rating": 5,
+      "text": "Les bagues sont sublimes ! Exactement ce que je cherchais pour compléter ma collection. Livraison soignée."
+    },
+    {
+      "id": 4,
+      "name": "Paul N.",
+      "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face",
+      "rating": 5,
+      "text": "Boutique sérieuse avec de beaux produits chrétiens. Mon bracelet est de très bonne qualité, je suis ravi !"
+    },
+    {
+      "id": 5,
+      "name": "Esther B.",
+      "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=60&h=60&fit=crop&crop=face",
+      "rating": 5,
+      "text": "Le carnet 'Épouse du Roi' est magnifique ! Parfait pour mes méditations quotidiennes. Merci Grâce-Boutique !"
+    },
+    {
+      "id": 6,
+      "name": "Jean-Claude T.",
+      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=60&h=60&fit=crop&crop=face",
+      "rating": 5,
+      "text": "Excellent service ! Les produits correspondent parfaitement aux descriptions. Livraison rapide et soignée."
+    }
+  ]
+}
