@@ -190,6 +190,15 @@
       "price": 1600,
       "available": true,
       "category": "femmes"
+    },
+    {
+      "id": "femme16",
+      "name": "Maison",
+      "image": "assets/test.jpg",
+      "description": "Bracelet avec perles et finition argentée",
+      "price": 1600,
+      "available": true,
+      "category": "femmes"
     }
   ],
   "bibles": [
