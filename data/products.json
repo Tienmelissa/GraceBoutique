@@ -256,6 +256,15 @@
       "price": 20000,
       "available": true,
       "category": "bibles"
+    },
+    {
+      "id": "bible8",
+      "name": "Bible Femme à son Écoute Souple Turquoise",
+      "image": "assets/bible8.jpg",
+      "description": "Version Louis Segond 1910, paroles de Jésus en turquoise. Guide personnel unique de méditation quotidienne, portraits de femmes bibliques, et plus de 400 fenêtres journalières pour appliquer les vérités de la Bible.",
+      "price": 35000,
+      "available": true,
+      "category": "bibles"
     }
   
   ]
