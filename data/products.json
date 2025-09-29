@@ -193,6 +193,7 @@
     }
   ],
   "bibles": [
+
     {
       "id": "bible1",
       "name": "Sainte Bible Classique",
@@ -237,6 +238,16 @@
       "price": 25000,
       "available": true,
       "category": "bibles"
+    },
+    {
+      "id": "bible6",
+      "name": "Bible de Méditation par les Femmes d'Afrique",
+      "image": "assets/bible6.jpg",
+      "description": "Bible pratique et compacte, version Louis Segond 1910, méditations quotidiennes et introductions aux livres bibliques.",
+      "price": 17500,
+      "available": true,
+      "category": "bibles"
     }
+  
   ]
 }
