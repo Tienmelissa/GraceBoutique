@@ -247,6 +247,15 @@
       "price": 17500,
       "available": true,
       "category": "bibles"
+    },
+    {
+      "id": "bible7",
+      "name": "Concordance de la Bible",
+      "image": "assets/bible7.jpg",
+      "description": "La Concordance de la Bible est un outil de référence indispensable pour approfondir la lecture et l’étude personnelle des Écritures. Elle répertorie, par ordre alphabétique, la plupart des mots employés dans la Bible, en indiquant tous les passages où ils apparaissent. Ainsi, à partir d’un mot précis (comme amour, foi, paix, prière), le lecteur peut retrouver facilement l’ensemble des versets qui en parlent.",
+      "price": 20000,
+      "available": true,
+      "category": "bibles"
     }
   
   ]
