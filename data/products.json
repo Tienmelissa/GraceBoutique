@@ -265,7 +265,15 @@
       "price": 35000,
       "available": true,
       "category": "bibles"
-    }
-  
+    },
+  {
+      "id": "bible9",
+      "name": "Guide de Doctrine Biblique",
+      "image": "assets/bible9.jpg",
+      "description": "Cela sert à exposer de manière systématique les enseignements fondamentaux de la Bible, aidant ainsi les croyants à comprendre et à appliquer la Parole de Dieu. Son rôle est de fournir un cadre structuré pour interpréter l'Écriture, de s'assurer que les enseignements sont cohérents et « sains » (c'est-à-dire vrais et fidèles à la Bible), et de guider la croissance spirituelle et la maturité des individus et de l'Église dans sa foi..",
+      "price": 20000,
+      "available": true,
+      "category": "bibles"
+    },
   ]
 }
