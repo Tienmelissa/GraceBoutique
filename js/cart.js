@@ -1,6 +1,5 @@
 // ======== GESTION DU PANIER ========
 let cart = JSON.parse(localStorage.getItem("graceBoutiqueCart")) || {};
-
 // Mettre à jour le compteur du panier
 function updateCartCount() {
   const cartCountElem = document.getElementById("cart-count");
