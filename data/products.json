@@ -20,18 +20,18 @@
     },
     {
       "id": "homme3",
-      "name": "Collier Zachée-Or",
-      "image": "assets/homme5.jpg",
-      "description": "Collier avec petit pendentif en finition dorée",
+      "name": "Collier Boaz-Argenté",
+      "image": "assets/homme3.jpg",
+      "description": "Collier élegant et sobre en finition argentée",
       "price": 2000,
       "available": true,
       "category": "hommes"
     },
     {
       "id": "homme4",
-      "name": "Collier Zachée-Argenté", 
-      "image": "assets/homme6.jpg",
-      "description": "Collier avec petit pendentif en finition argentée",
+      "name": "Collier Boaz-Or", 
+      "image": "assets/homme4.jpg",
+      "description": "Collier élegant et sobre en finition dorée",
       "price": 2000,
       "available": true,
       "category": "hommes"
@@ -39,7 +39,7 @@
     {
       "id": "homme5",
       "name": "Collier double-Or",
-      "image": "assets/homme7.jpg", 
+      "image": "assets/homme5.jpg", 
       "description": "Collier double chaîne en finition dorée",
       "price": 3000,
       "available": true,
@@ -48,7 +48,7 @@
     {
       "id": "homme6",
       "name": "Collier double-Argenté",
-      "image": "assets/homme8.jpg",
+      "image": "assets/homme6.jpg",
       "description": "Collier double chaîne en finition argentée", 
       "price": 3000,
       "available": true,
@@ -57,12 +57,21 @@
     {
       "id": "homme7",
       "name": "Bracelet double",
-      "image": "assets/homme9.jpg",
+      "image": "assets/homme7.jpg",
       "description": "Bracelet double chaîne élégant",
       "price": 2500,
       "available": true,
       "category": "hommes"
     }
+    {
+      "id": "homme7",
+      "name": "Bracelet double",
+      "image": "assets/homme7.jpg",
+      "description": "Bracelet double chaîne élégant",
+      "price": 2500,
+      "available": true,
+      "category": "hommes"
+       }
   ],
   "femmes": [
     {
