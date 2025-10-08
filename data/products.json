@@ -64,10 +64,10 @@
       "category": "hommes"
     }
     {
-      "id": "homme7",
-      "name": "Bracelet double",
-      "image": "assets/homme7.jpg",
-      "description": "Bracelet double chaîne élégant",
+      "id": "homme8",
+      "name": "Collier Poisson",
+      "image": "assets/homme8.jpg",
+      "description": "Collier homme en forme de poisson",
       "price": 2500,
       "available": true,
       "category": "hommes"
