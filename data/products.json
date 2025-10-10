@@ -21,7 +21,7 @@
     {
       "id": "homme3",
       "name": "Collier Double-Or",
-      "image": "assets/homme3.jpg",
+      "image": "assets/homme5.jpg",
       "description": "Collier double chaîne en finition dorée",
       "price": 3000,
       "available": true,
@@ -30,7 +30,7 @@
     {
       "id": "homme4",
       "name": "Collier double-Argenté", 
-      "image": "assets/homme4.jpg",
+      "image": "assets/homme6.jpg",
       "description": "Collier double chaîne en finition argentée",
       "price": 3000,
       "available": true,
@@ -39,7 +39,7 @@
     {
       "id": "homme5",
       "name": "Bracelet double-Argenté",
-      "image": "assets/homme5.jpg", 
+      "image": "assets/homme7.jpg", 
       "description": "Bracelet double en finition Argentée",
       "price": 2500,
       "available": true,
@@ -65,13 +65,22 @@
     }
     {
       "id": "homme8",
-      "name": "Collier Poisson",
-      "image": "assets/homme8.jpg",
+      "name": "Collier Eden-Or",
+      "image": "assets/homme4.jpg",
       "description": "Collier homme en forme de poisson",
       "price": 2500,
       "available": true,
       "category": "hommes"
        }
+       {
+      "id": "homme8",
+      "name": "Collier Eden-Argenté",
+      "image": "assets/homme3.jpg",
+      "description": "Bracelet double chaîne élégant",
+      "price": 2500,
+      "available": true,
+      "category": "hommes"
+    }
   ],
   "femmes": [
     {
