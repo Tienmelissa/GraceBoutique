@@ -62,7 +62,7 @@
       "price": 2500,
       "available": true,
       "category": "hommes"
-    }
+    },
     {
       "id": "homme8",
       "name": "Collier Eden-Or",
@@ -71,9 +71,9 @@
       "price": 2500,
       "available": true,
       "category": "hommes"
-       }
+       },
        {
-      "id": "homme8",
+      "id": "homme9",
       "name": "Collier Eden-Argenté",
       "image": "assets/homme3.jpg",
       "description": "Bracelet double chaîne élégant",
