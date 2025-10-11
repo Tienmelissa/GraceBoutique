@@ -20,10 +20,8 @@
     },
     {
       "id": "homme3",
-<<<<<<< HEAD
       "name": "Collier Double-Or",
       "image": "assets/homme5.jpg",
-=======
       "name": "Collier Zachée-Or",
       "image": "assets/homme/homme5.jpg",
       "description": "Collier avec petit pendentif en finition dorée",
@@ -44,22 +42,18 @@
       "id": "homme5",
       "name": "Collier double-Or",
       "image": "assets/homme/homme7.jpg",
->>>>>>> cc9edde7222112a390a8ba5e45bd626ca9d2ee93
       "description": "Collier double chaîne en finition dorée",
       "price": 3000,
       "available": true,
       "category": "hommes"
     },
     {
-<<<<<<< HEAD
       "id": "homme4",
       "name": "Collier double-Argenté", 
-      "image": "assets/homme6.jpg",
-=======
+      "image": "assets/homme/homme6.jpg",
       "id": "homme6",
       "name": "Collier double-Argenté",
       "image": "assets/homme/homme8.jpg",
->>>>>>> cc9edde7222112a390a8ba5e45bd626ca9d2ee93
       "description": "Collier double chaîne en finition argentée",
       "price": 3000,
       "available": true,
@@ -68,7 +62,7 @@
     {
       "id": "homme5",
       "name": "Bracelet double-Argenté",
-      "image": "assets/homme7.jpg", 
+      "image": "assets/homme/homme7.jpg", 
       "description": "Bracelet double en finition Argentée",
       "price": 2500,
       "available": true,
@@ -77,7 +71,7 @@
     {
       "id": "homme6",
       "name": "Collier poisson-Doré",
-      "image": "assets/homme8.jpg",
+      "image": "assets/homme/homme8.jpg",
       "description": "Collier homme en forme de poisson", 
       "price": 2000,
       "available": true,
@@ -93,22 +87,20 @@
       "category": "hommes"
     },
     {
-<<<<<<< HEAD
       "id": "homme8",
       "name": "Collier Eden-Or",
-      "image": "assets/homme4.jpg",
+      "image": "assets/homme/homme4.jpg",
       "description": "Collier homme en forme de poisson",
       "price": 2500,
       "available": true,
       "category": "hommes"
-       },
-       {
+    },
+    {
       "id": "homme9",
       "name": "Collier Eden-Argenté",
-      "image": "assets/homme3.jpg",
+      "image": "assets/homme/homme3.jpg",
       "description": "Bracelet double chaîne élégant",
       "price": 2500,
-=======
       "id": "homme9",
       "name": "Collier Cross-Argenté",
       "image": "assets/homme/homme9.jpg",
@@ -150,7 +142,6 @@
       "image": "assets/homme/homme13.jpg",
       "description": "Bracelet pour couple/meilleurs amis",
       "price": 3500,
->>>>>>> cc9edde7222112a390a8ba5e45bd626ca9d2ee93
       "available": true,
       "category": "hommes"
     }
