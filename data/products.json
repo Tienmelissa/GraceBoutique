@@ -3,16 +3,16 @@
     {
       "id": "homme1",
       "name": "Collier Messie-Or",
-      "image": "assets/homme1.jpg",
+      "image": "assets/homme/homme1.jpg",
       "description": "Collier élégant avec pendentif Messie en finition dorée",
       "price": 2000,
       "available": true,
       "category": "hommes"
     },
     {
-      "id": "homme2", 
+      "id": "homme2",
       "name": "Collier Messie-Argenté",
-      "image": "assets/homme2.jpg",
+      "image": "assets/homme/homme2.jpg",
       "description": "Collier élégant avec pendentif Messie en finition argentée",
       "price": 2000,
       "available": true,
@@ -20,17 +20,46 @@
     },
     {
       "id": "homme3",
+<<<<<<< HEAD
       "name": "Collier Double-Or",
       "image": "assets/homme5.jpg",
+=======
+      "name": "Collier Zachée-Or",
+      "image": "assets/homme/homme5.jpg",
+      "description": "Collier avec petit pendentif en finition dorée",
+      "price": 2000,
+      "available": true,
+      "category": "hommes"
+    },
+    {
+      "id": "homme4",
+      "name": "Collier Zachée-Argenté",
+      "image": "assets/homme/homme6.jpg",
+      "description": "Collier avec petit pendentif en finition argentée",
+      "price": 2000,
+      "available": true,
+      "category": "hommes"
+    },
+    {
+      "id": "homme5",
+      "name": "Collier double-Or",
+      "image": "assets/homme/homme7.jpg",
+>>>>>>> cc9edde7222112a390a8ba5e45bd626ca9d2ee93
       "description": "Collier double chaîne en finition dorée",
       "price": 3000,
       "available": true,
       "category": "hommes"
     },
     {
+<<<<<<< HEAD
       "id": "homme4",
       "name": "Collier double-Argenté", 
       "image": "assets/homme6.jpg",
+=======
+      "id": "homme6",
+      "name": "Collier double-Argenté",
+      "image": "assets/homme/homme8.jpg",
+>>>>>>> cc9edde7222112a390a8ba5e45bd626ca9d2ee93
       "description": "Collier double chaîne en finition argentée",
       "price": 3000,
       "available": true,
@@ -57,13 +86,14 @@
     {
       "id": "homme7",
       "name": "Bracelet double",
-      "image": "assets/homme7.jpg",
+      "image": "assets/homme/homme7.jpg",
       "description": "Bracelet double chaîne élégant",
       "price": 2500,
       "available": true,
       "category": "hommes"
     },
     {
+<<<<<<< HEAD
       "id": "homme8",
       "name": "Collier Eden-Or",
       "image": "assets/homme4.jpg",
@@ -78,6 +108,49 @@
       "image": "assets/homme3.jpg",
       "description": "Bracelet double chaîne élégant",
       "price": 2500,
+=======
+      "id": "homme9",
+      "name": "Collier Cross-Argenté",
+      "image": "assets/homme/homme9.jpg",
+      "description": "Collier croix simple en finition argentée",
+      "price": 2000,
+      "available": true,
+      "category": "hommes"
+    },
+    {
+      "id": "homme10",
+      "name": "Collier Cross-Or",
+      "image": "assets/homme/homme10.jpg",
+      "description": "Collier croix simple en finition Or",
+      "price": 2000,
+      "available": true,
+      "category": "hommes"
+    },
+    {
+      "id": "homme11",
+      "name": "Collier David-Or",
+      "image": "assets/homme/homme11.jpg",
+      "description": "Collier avec gravure du nom de Jesus en finition Or",
+      "price": 2000,
+      "available": true,
+      "category": "hommes"
+    },
+    {
+      "id": "homme12",
+      "name": "Bague men of God",
+      "image": "assets/homme/homme12.jpg",
+      "description": "Bague avec gravure du nom de Jesus",
+      "price": 1000,
+      "available": true,
+      "category": "hommes"
+    },
+    {
+      "id": "homme13",
+      "name": "Bracelet Couple",
+      "image": "assets/homme/homme13.jpg",
+      "description": "Bracelet pour couple/meilleurs amis",
+      "price": 3500,
+>>>>>>> cc9edde7222112a390a8ba5e45bd626ca9d2ee93
       "available": true,
       "category": "hommes"
     }
@@ -86,7 +159,7 @@
     {
       "id": "femme1",
       "name": "Bague Faith",
-      "image": "assets/femme1.jpg",
+      "image": "assets/femme/femme1.jpg",
       "description": "Bague élégante avec symbole de foi",
       "price": 1000,
       "available": true,
@@ -95,7 +168,7 @@
     {
       "id": "femme2",
       "name": "Bague God's Love-Or",
-      "image": "assets/femme2.jpg",
+      "image": "assets/femme/femme2.jpg",
       "description": "Bague God's Love en finition dorée",
       "price": 1000,
       "available": true,
@@ -104,7 +177,7 @@
     {
       "id": "femme3",
       "name": "Bracelet Croix-Or",
-      "image": "assets/femme3.jpg",
+      "image": "assets/femme/femme3.jpg",
       "description": "Collier avec pendentif croix en finition dorée",
       "price": 2500,
       "available": true,
@@ -113,7 +186,7 @@
     {
       "id": "femme4",
       "name": "Bracelet Croix-Argenté",
-      "image": "assets/femme4.jpg",
+      "image": "assets/femme/femme4.jpg",
       "description": "Bracelet avec pendentif croix en finition argentée",
       "price": 2500,
       "available": true,
@@ -122,7 +195,7 @@
     {
       "id": "femme5",
       "name": "Bracelet Myriam",
-      "image": "assets/femme5.jpg",
+      "image": "assets/femme/femme5.jpg",
       "description": "Magnifique bracelet sobre et élégant pour femme",
       "price": 1750,
       "available": true,
@@ -131,7 +204,7 @@
     {
       "id": "femme6",
       "name": "Bracelet Marie-Or",
-      "image": "assets/femme6.jpg",
+      "image": "assets/femme/femme6.jpg",
       "description": "Beau bracelet double imposant en finition dorée",
       "price": 2000,
       "available": true,
@@ -140,7 +213,7 @@
     {
       "id": "femme7",
       "name": "Bracelet Marie-Argenté",
-      "image": "assets/femme7.jpg",
+      "image": "assets/femme/femme7.jpg",
       "description": "Bracelet avec charm amour en finition argentée",
       "price": 2000,
       "available": true,
@@ -149,7 +222,7 @@
     {
       "id": "femme8",
       "name": "Collier Redemption",
-      "image": "assets/femme8.jpg",
+      "image": "assets/femme/femme8.jpg",
       "description": "Collier avec pendentif en perles finition dorée",
       "price": 2200,
       "available": true,
@@ -158,7 +231,7 @@
     {
       "id": "femme9",
       "name": "Collier Amour infini -Or",
-      "image": "assets/femme9.jpg",
+      "image": "assets/femme/femme9.jpg",
       "description": "Collier avec symbole infini et une croix en finition argentée representant l'amour infini de Dieu envers nous",
       "price": 2000,
       "available": true,
@@ -167,7 +240,7 @@
     {
       "id": "femme10",
       "name": "Collier Amour infini-Argenté",
-      "image": "assets/femme10.jpg",
+      "image": "assets/femme/femme10.jpg",
       "description": "Collier avec symbole infini et une croix en finition argentée representant l'amour infini de Dieu envers nous",
       "price": 2000,
       "available": false,
@@ -176,7 +249,7 @@
     {
       "id": "femme11",
       "name": "Collier Abigail",
-      "image": "assets/femme11.jpg",
+      "image": "assets/femme/femme11.jpg",
       "description": "Collier double pour les femmes distinguées",
       "price": 2500,
       "available": true,
@@ -185,7 +258,7 @@
     {
       "id": "femme13",
       "name": "Collier Etoile de Bethleem",
-      "image": "assets/femme13.jpg",
+      "image": "assets/femme/femme13.jpg",
       "description": "Magnifique petit collier brillant pour celles qui aiment le minimalisme",
       "price": 2500,
       "available": true,
@@ -194,7 +267,7 @@
     {
       "id": "femme14",
       "name": "Journal Epouse du Roi",
-      "image": "assets/femme14.jpg",
+      "image": "assets/femme/femme14.jpg",
       "description": "Journal quotidien pour femmes chrétiennes",
       "price": 6000,
       "available": true,
@@ -203,19 +276,27 @@
     {
       "id": "femme15",
       "name": "Collier Elijah -Or",
-      "image": "assets/femme15.jpg",
+      "image": "assets/femme/femme15.jpg",
       "description": "Bracelet avec perles et finition argentée",
+      "price": 2500,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme16",
+      "name": "Collier Elijah-Argenté",
+      "image": "assets/femme/femme16.jpg",
+      "description": "Bague avec gravure du nom de Jesus",
       "price": 2500,
       "available": true,
       "category": "femmes"
     }
   ],
   "bibles": [
-
     {
       "id": "bible1",
       "name": "Sainte Bible Classique",
-      "image": "assets/bible1.jpg",
+      "image": "assets/bible/bible1.jpg",
       "description": "Une Bible complète en français, couverture rigide, idéale pour la lecture quotidienne et les études personnelles.",
       "price": 1500,
       "available": true,
@@ -224,7 +305,7 @@
     {
       "id": "bible2",
       "name": "Bible Femme à son Écoute",
-      "image": "assets/bible2.jpg",
+      "image": "assets/bible/bible2.jpg",
       "description": "Version Louis Segond 1910, paroles de Jésus en turquoise. Guide personnel unique de méditation quotidienne, portraits de femmes bibliques, et plus de 400 fenêtres journalières pour appliquer les vérités de la Bible.",
       "price": 30000,
       "available": true,
@@ -233,7 +314,7 @@
     {
       "id": "bible3",
       "name": "Bible de Poche Femme",
-      "image": "assets/bible3.jpg",
+      "image": "assets/bible/bible3.jpg",
       "description": "Bible pratique et compacte, version Louis Segond 1910, avec paroles de Jésus en turquoise, méditations quotidiennes et introductions aux livres bibliques.",
       "price": 40000,
       "available": true,
@@ -242,7 +323,7 @@
     {
       "id": "bible4",
       "name": "Carnet Chrétien - Épouse du Roi",
-      "image": "assets/bible4.jpg",
+      "image": "assets/bible/bible4.jpg",
       "description": "Journal quotidien pour femmes, sections pour louange, prière, méditation et objectifs annuels. Inclus des conseils pour fiancées, songes, et planification spirituelle.",
       "price": 6000,
       "available": true,
@@ -251,7 +332,7 @@
     {
       "id": "bible5",
       "name": "Bible Pour le Couple - Version Semeur",
-      "image": "assets/bible5.jpg",
+      "image": "assets/bible/bible5.jpg",
       "description": "Édition spéciale pour mari et femme, avec méditations quotidiennes, études de week-end, conseils pratiques pour le mariage et outils d'étude biblique.",
       "price": 25000,
       "available": true,
@@ -260,7 +341,7 @@
     {
       "id": "bible6",
       "name": "Bible de Méditation par les Femmes d'Afrique",
-      "image": "assets/bible6.jpg",
+      "image": "assets/bible/bible6.jpg",
       "description": "Bible pratique et compacte, version Louis Segond 1910, méditations quotidiennes et introductions aux livres bibliques.",
       "price": 17500,
       "available": true,
@@ -269,7 +350,7 @@
     {
       "id": "bible7",
       "name": "Concordance de la Bible",
-      "image": "assets/bible7.jpg",
+      "image": "assets/bible/bible7.jpg",
       "description": "La Concordance de la Bible est un outil de référence indispensable pour approfondir la lecture et l’étude personnelle des Écritures. Elle répertorie, par ordre alphabétique, la plupart des mots employés dans la Bible, en indiquant tous les passages où ils apparaissent. Ainsi, à partir d’un mot précis (comme amour, foi, paix, prière), le lecteur peut retrouver facilement l’ensemble des versets qui en parlent.",
       "price": 20000,
       "available": true,
@@ -278,16 +359,16 @@
     {
       "id": "bible8",
       "name": "Bible Femme à son Écoute Souple Turquoise",
-      "image": "assets/bible8.jpg",
+      "image": "assets/bible/bible8.jpg",
       "description": "Version Louis Segond 1910, paroles de Jésus en turquoise. Guide personnel unique de méditation quotidienne, portraits de femmes bibliques, et plus de 400 fenêtres journalières pour appliquer les vérités de la Bible.",
       "price": 35000,
       "available": true,
       "category": "bibles"
     },
-  {
+    {
       "id": "bible9",
       "name": "Guide de Doctrine Biblique",
-      "image": "assets/bible9.jpg",
+      "image": "assets/bible/bible9.jpg",
       "description": "Cela sert à exposer de manière systématique les enseignements fondamentaux de la Bible, aidant ainsi les croyants à comprendre et à appliquer la Parole de Dieu. Son rôle est de fournir un cadre structuré pour interpréter l'Écriture, de s'assurer que les enseignements sont cohérents et « sains » (c'est-à-dire vrais et fidèles à la Bible), et de guider la croissance spirituelle et la maturité des individus et de l'Église dans sa foi..",
       "price": 20000,
       "available": true,
