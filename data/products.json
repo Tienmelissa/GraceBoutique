@@ -100,7 +100,12 @@
       "name": "Collier Eden-Argenté",
       "image": "assets/homme/homme3.jpg",
       "description": "Bracelet double chaîne élégant",
-      "price": 2500,
+      "price": 2000,
+      "available": true,
+      "category": "hommes"
+       },
+
+    {
       "id": "homme9",
       "name": "Collier Cross-Argenté",
       "image": "assets/homme/homme9.jpg",
