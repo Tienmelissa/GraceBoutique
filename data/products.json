@@ -258,7 +258,7 @@
       "id": "femme15",
       "name": "Collier Elijah -Or",
       "image": "assets/femme/femme15.jpg",
-      "description": "Bracelet avec perles et finition argentée",
+      "description": "Bracelet avec perles et finition doré",
       "price": 2500,
       "available": true,
       "category": "femmes"
@@ -267,6 +267,15 @@
       "id": "femme17",
       "name": "Bague God's Love-Argenté",
       "image": "assets/femme/femme17.jpg",
+      "description": "Bague God's Love en finition argentée",
+      "price": 1000,
+      "available": true,
+      "category": "femmes"
+    },
+    {
+      "id": "femme18",
+      "name": "Collier Elijah -Argenté",
+      "image": "assets/femme/femme18.jpg",
       "description": "Bague God's Love en finition argentée",
       "price": 1000,
       "available": true,
@@ -293,11 +302,11 @@
       "category": "bibles"
     },
     {
-      "id": "bible3",
+      "id": "bible16",
       "name": "Bible de Poche Femme",
-      "image": "assets/bible/bible3.jpg",
+      "image": "assets/bible/bible16.jpg",
       "description": "Bible pratique et compacte, version Louis Segond 1910, avec paroles de Jésus en turquoise, méditations quotidiennes et introductions aux livres bibliques.",
-      "price": 40000,
+      "price": 35000,
       "available": true,
       "category": "bibles"
     },
@@ -320,9 +329,9 @@
       "category": "bibles"
     },
     {
-      "id": "bible6",
+      "id": "bible11",
       "name": "Bible de Méditation par les Femmes d'Afrique",
-      "image": "assets/bible/bible6.jpg",
+      "image": "assets/bible/bible11.jpg",
       "description": "Bible pratique et compacte, version Louis Segond 1910, méditations quotidiennes et introductions aux livres bibliques.",
       "price": 17500,
       "available": true,
