@@ -20,20 +20,18 @@
     },
     {
       "id": "homme3",
-      "name": "Collier Double-Or",
-      "image": "assets/homme5.jpg",
-      "name": "Collier Zachée-Or",
-      "image": "assets/homme/homme5.jpg",
-      "description": "Collier avec petit pendentif en finition dorée",
+      "name": "Collier Eden-Argenté",
+      "image": "assets/homme3.jpg",
+      "description": "Collier double face",
       "price": 2000,
       "available": true,
       "category": "hommes"
     },
     {
       "id": "homme4",
-      "name": "Collier Zachée-Argenté",
-      "image": "assets/homme/homme6.jpg",
-      "description": "Collier avec petit pendentif en finition argentée",
+      "name": "Collier Eden-Doré",
+      "image": "assets/homme/homme4.jpg",
+      "description": "Collier double face",
       "price": 2000,
       "available": true,
       "category": "hommes"
@@ -41,26 +39,23 @@
     {
       "id": "homme5",
       "name": "Collier double-Or",
-      "image": "assets/homme/homme7.jpg",
+      "image": "assets/homme/homme5.jpg",
       "description": "Collier double chaîne en finition dorée",
       "price": 3000,
       "available": true,
       "category": "hommes"
     },
     {
-      "id": "homme4",
+      "id": "homme6",
       "name": "Collier double-Argenté", 
       "image": "assets/homme/homme6.jpg",
-      "id": "homme6",
-      "name": "Collier double-Argenté",
-      "image": "assets/homme/homme8.jpg",
       "description": "Collier double chaîne en finition argentée",
       "price": 3000,
       "available": true,
       "category": "hommes"
     },
     {
-      "id": "homme5",
+      "id": "homme7",
       "name": "Bracelet double-Argenté",
       "image": "assets/homme/homme7.jpg", 
       "description": "Bracelet double en finition Argentée",
@@ -69,7 +64,7 @@
       "category": "hommes"
     },
     {
-      "id": "homme6",
+      "id": "homme8",
       "name": "Collier poisson-Doré",
       "image": "assets/homme/homme8.jpg",
       "description": "Collier homme en forme de poisson", 
@@ -78,38 +73,10 @@
       "category": "hommes"
     },
     {
-      "id": "homme7",
-      "name": "Bracelet double",
-      "image": "assets/homme/homme7.jpg",
-      "description": "Bracelet double chaîne élégant",
-      "price": 2500,
-      "available": true,
-      "category": "hommes"
-    },
-    {
-      "id": "homme8",
-      "name": "Collier Eden-Or",
-      "image": "assets/homme/homme4.jpg",
-      "description": "Collier homme en forme de poisson",
-      "price": 2500,
-      "available": true,
-      "category": "hommes"
-    },
-    {
-      "id": "homme9",
-      "name": "Collier Eden-Argenté",
-      "image": "assets/homme/homme3.jpg",
-      "description": "Bracelet double chaîne élégant",
-      "price": 2000,
-      "available": true,
-      "category": "hommes"
-       },
-
-    {
       "id": "homme9",
       "name": "Collier Cross-Argenté",
       "image": "assets/homme/homme9.jpg",
-      "description": "Collier croix simple en finition argentée",
+      "description": "Collier croix simple en finition Or",
       "price": 2000,
       "available": true,
       "category": "hommes"
@@ -239,7 +206,7 @@
       "image": "assets/femme/femme10.jpg",
       "description": "Collier avec symbole infini et une croix en finition argentée representant l'amour infini de Dieu envers nous",
       "price": 2000,
-      "available": false,
+      "available": true,
       "category": "femmes"
     },
     {
@@ -279,11 +246,11 @@
       "category": "femmes"
     },
     {
-      "id": "femme16",
-      "name": "Collier Elijah-Argenté",
-      "image": "assets/femme/femme16.jpg",
-      "description": "Bague avec gravure du nom de Jesus",
-      "price": 2500,
+      "id": "femme17",
+      "name": "Bague God's Love-Argenté",
+      "image": "assets/femme/femme17.jpg",
+      "description": "Bague God's Love en finition argentée",
+      "price": 1000,
       "available": true,
       "category": "femmes"
     }
@@ -318,10 +285,10 @@
     },
     {
       "id": "bible4",
-      "name": "Carnet Chrétien - Épouse du Roi",
+      "name": "Pot à verset biblique",
       "image": "assets/bible/bible4.jpg",
-      "description": "Journal quotidien pour femmes, sections pour louange, prière, méditation et objectifs annuels. Inclus des conseils pour fiancées, songes, et planification spirituelle.",
-      "price": 6000,
+      "description": "Pot contenant 60 versets bibliques pour 6 émotions.",
+      "price": 2500,
       "available": true,
       "category": "bibles"
     },
@@ -367,6 +334,15 @@
       "image": "assets/bible/bible9.jpg",
       "description": "Cela sert à exposer de manière systématique les enseignements fondamentaux de la Bible, aidant ainsi les croyants à comprendre et à appliquer la Parole de Dieu. Son rôle est de fournir un cadre structuré pour interpréter l'Écriture, de s'assurer que les enseignements sont cohérents et « sains » (c'est-à-dire vrais et fidèles à la Bible), et de guider la croissance spirituelle et la maturité des individus et de l'Église dans sa foi..",
       "price": 20000,
+      "available": true,
+      "category": "bibles"
+    },
+    {
+      "id": "bible10",
+      "name": "Bracelet Zakhar",
+      "image": "assets/bible/bible10.jpg",
+      "description": "La bible portable",
+      "price": 3000,
       "available": true,
       "category": "bibles"
     }
