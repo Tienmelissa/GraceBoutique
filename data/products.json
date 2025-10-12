@@ -116,6 +116,24 @@
       "price": 3500,
       "available": true,
       "category": "hommes"
+    },
+    {
+      "id": "homme14",
+      "name": "Collier Zachée Or",
+      "image": "assets/homme/homme14.jpg",
+      "description": "Collier avec une petite croix sobre",
+      "price": 2000,
+      "available": true,
+      "category": "hommes"
+    },
+    {
+      "id": "homme15",
+      "name": "Collier Zachée Argenté",
+      "image": "assets/homme/homme15.jpg",
+      "description": "Collier avec une petite croix sobre couleur argenté",
+      "price": 2000,
+      "available": true,
+      "category": "hommes"
     }
   ],
   "femmes": [
