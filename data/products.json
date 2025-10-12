@@ -258,7 +258,7 @@
       "id": "femme15",
       "name": "Collier Elijah -Or",
       "image": "assets/femme/femme15.jpg",
-      "description": "Bracelet avec perles et finition doré",
+      "description": "Magnifique collier finition doré",
       "price": 2500,
       "available": true,
       "category": "femmes"
@@ -276,8 +276,8 @@
       "id": "femme18",
       "name": "Collier Elijah -Argenté",
       "image": "assets/femme/femme18.jpg",
-      "description": "Bague God's Love en finition argentée",
-      "price": 1000,
+      "description": "Magnifique collier finition Argenté",
+      "price": 2500,
       "available": true,
       "category": "femmes"
     }
