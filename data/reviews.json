@@ -9,24 +9,24 @@
     },
     {
       "id": 2,
-      "name": "Eslie Gnamou.",
+      "name": "Carine S.",
       "photo": "assets/femme/ines.jpg",
       "rating": 5,
-      "text": "Service client exceptionnel ! Ma Bible est arrivée en parfait état. Merci pour ce beau travail et cette rapidité."
+      "text": " Ma Bible est arrivée en parfait état. Merci pour ce beau travail et cette rapidité."
     },
     {
       "id": 3,
-      "name": "Pamela Sandrine.",
+      "name": "Esther K.",
       "photo": "",
-      "rating": 5,
-      "text": "Les bagues sont sublimes ! Exactement ce que je cherchais pour compléter ma collection. Livraison soignée."
+      "rating": 4,
+      "text": "Les bagues sont belles. La livraison a pris un légé retard,mais je suis satisfaite."
     },
     {
       "id": 4,
       "name": "Venola Tiendrebeogo",
       "photo": "assets/femme/veno.jpg",
       "rating": 5,
-      "text": "Boutique sérieuse avec de beaux produits chrétiens. Mon bracelet est de très bonne qualité, je suis ravi !"
+      "text": "Boutique sérieuse avec de beaux produits chrétiens. Mon bracelet est de très bonne qualité, je suis ravie!"
     },
     {
       "id": 5,
@@ -40,7 +40,7 @@
       "name": "Ezeckiel Bouda.",
       "photo": "",
       "rating": 5,
-      "text": "Excellent service ! Les produits correspondent parfaitement aux descriptions. Livraison rapide et soignée."
+      "text": " Les produits correspondent parfaitement aux descriptions. Livraison rapide j'ai aimé."
     }
   ]
 }
